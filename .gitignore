@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# XTM runtime artifacts (generated, can be large)
+data/
+reports/
+system_state/
+visualizations/
+xtm_demo/
+*.pkl
+*.keras
+*.npy
+*.npz
+
+# Notebooks / editor / OS
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+a.out
